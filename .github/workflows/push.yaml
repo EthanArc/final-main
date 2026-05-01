@@ -2,11 +2,11 @@ name: Golang-HW12-pipeline
 
 on:
   push:
-    branches: [ "main"]
+    branches: [ "main", "final" ]
     tags:
       - 'v*'
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "final" ]
 
 jobs:
   test:
